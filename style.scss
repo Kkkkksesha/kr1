@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+
+body {
+    font-family: Onest;
+    color: #2C3640;
+}
+
+.container {
+    max-width: 1160px;
+}
+
+.main_box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.main_card {
+    background-color: #F8F9FB;
+    width: 480px;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_name {
+    font-size: 16px;
+}
+
+.main_konf {
+    color: #959B9F;
+    font-size: 16px;
+}
+
+.main_num {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main_i {
+    display: flex;
+}
+
+img {
+    margin-right: 20px;
+}
